@@ -1,94 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <base href="www.suzthephysicist.com"
         <title>Suzanne Rosenzweig's Website</title>
-        <link href="/css/style.css" rel="stylesheet" type="text/css">
+        <link href="style.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
 
-        <div class="grid-container">
-            <div class="header-item header-grid">
-                <h1 class='h1'>Welcome to my website!</h1>
+        <div class="top-block">
+            <div class="title-block">
+                <header>Suzanne Rosenzweig</header>
             </div>
-            <div class="menu-item menu">
-                Navigation will occur here.
-            </div>
-            <div class="grid-item body">
-                <p class='nice'>It is quite obviously under construction.</p>
-            </div>
-            <div class="footer-item footer">Updated 2021 March 3</div>
+
+            <nav class="menu-block"><ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+            </ul></nav>
         </div>
+
+        
+
+        
     </body>
 </html>
 
 <style>
-    .h1 {
-        color: white
-    }
-    .body {
-        color: black
-    }
-    .grid-container {
-        display: grid;
-        grid-gap: 0px;
-        padding: 5px;
-    }
-
-    .grid-item {
-        background-color: rgba(255, 255, 255, 0.8);
+    .top-block {
+        /* position: absolute; */
+        background-color: black;
+        height: 200px;
+        width: 100%;
+        margin: auto;
         text-align: center;
-        padding: 20px;
-        font-size: 30px;
     }
-
-    .header-item {
-        background-color: rgb(0, 0, 0);
-        text-align: left;
-        font-family: 'Avenir';
-        color: 'white'
+    .title-block {
+        padding-top: 50px;
+        height: 80px;
+        line-height:1.35em;
+        font-size:40px;
+        font-family:'Poppins-ExtraLight';
+        /* font-weight:lighter; */
+        color:white;
     }
-
-    .header-grid {
-        grid-column: 1 / span 3;
-        grid-row: 1;
-    }
-
-    .menu-item {
-        background-color: rgba(0, 0, 0);
+    .menu-block {
         text-align: center;
-        padding: 20px;
-        font-size: 30px;
-        color: white;
+        width: 100%;
     }
-
-    .menu {
-        grid-column: 3;
-        grid-row: 2 / span 2;
+    .menu-block ul {
+        display: inline-block;
+        margin: 0px 0;
+        padding: 0px;
     }
-
-    .body {
-        grid-column: 1 / span 2;
-        grid-row: 2 / span 2;
+    .menu-block ul li {
+        display: inline-block;
     }
-
-    .footer-item {
-        background-color: rgb(0, 0, 0);
-        text-align: left;
-        font-family: 'Avenir';
-        color: white;
+    .menu-block li a {
+    display: inline-block;
+    color: #FFF;
+    padding: 0px;
+    text-decoration: none;
+    @font-face{
+        font-display: block;
+        font-family: "Poppins-ExtraLight";
+        src: url("//fonts.gstatic.com/s/poppins/v5/2NBlOVek2HIa2EeuV_3Cbw.eot?#iefix");
+        src: url("//fonts.gstatic.com/s/poppins/v5/2NBlOVek2HIa2EeuV_3Cbw.eot?#iefix") format("eot"), url("//fonts.gstatic.com/s/poppins/v5/rijG6I_IOXJjsH07UEo2mw.woff2") format("woff2"), url("//fonts.gstatic.com/s/poppins/v5/p0A1C4_gK5NzKtuGSwNurQ.woff") format("woff"), url("//fonts.gstatic.com/s/poppins/v5/rATt6MpBkxjRr3sy5fMEDg.ttf") format("truetype"), url("//fonts.gstatic.com/l/font?kit=dvQ6luzB0ViWP07p6fisSw&skey=87759fb096548f6d&v=v5#Poppins") format("svg");
     }
-
-    .footer {
-        grid-column: 1 / span 3;
-        grid-row: 4;
-    }
-
-    .nice {
-        font-family: 'Avenir';
-    }
-    .code {
-        font-family:'Courier New', Courier, monospace;
-    }
-    
+}
 </style>
+
