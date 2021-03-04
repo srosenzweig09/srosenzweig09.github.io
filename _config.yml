@@ -1,8 +1,17 @@
-source: test
+locale: en-US
+name: &name "Suzanne Rosenzweig"
+description: "Suzanne's personal site."
+url: www.suzthephysicist.com
+repository: "srosenzweig09/srosenzweig09.github.io"
 
-url: https//srosenzweig09.github.io
-baseurl: "www.suzthephysicist.com"
+facebook:
+  username: srosenzweig09
+
+author:
+  email: srosenzweig09@gmail.com
+  github: "srosenzweig09"
+  linkedin: "srosenz"
+
+timezone: America/New_York
 
 
-kramdown:
-  math_engine: mathjax
