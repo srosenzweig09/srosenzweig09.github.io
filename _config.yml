@@ -2,6 +2,7 @@ locale: en-US
 name: &name "Suzanne Rosenzweig"
 description: "Suzanne's personal site."
 url: www.suzthephysicist.com
+baseurl: /
 repository: "srosenzweig09/srosenzweig09.github.io"
 root: /
 
