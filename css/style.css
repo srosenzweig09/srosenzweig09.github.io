@@ -11,7 +11,7 @@
     height: 80px;
     line-height:1.35em;
     font-size:40px;
-    font-family:'Avenir';
+    font-family:'Avenir Light';
     color:white;
 }
 .menu-block {
@@ -21,7 +21,7 @@
 .menu-block ul {
     display: inline-block;
     margin: 0px 0;
-    padding: 0px;
+    padding-top: 30px;
 }
 .menu-block ul li {
     display: inline-block;
@@ -51,4 +51,9 @@
     font-display: block;
     font-family: 'Avenir';
     src: url("fonts/Avenir.ttc") format("truetype");
+}
+@font-face{
+    font-display: block;
+    font-family: 'Avenir Light';
+    src: url("//db.onlinewebfonts.com/t/116af611cbcd9e4bada60b4e700430c1.eot") format("eot");
 }
