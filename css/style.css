@@ -20,7 +20,6 @@
 }
 .menu-block ul {
     display: inline-block;
-    padding-top: 30px;
 }
 .menu-block ul li {
     display: inline-block;
@@ -28,7 +27,7 @@
 .menu-block li a {
     display: inline-block;
     color: #FFF;
-    padding: 0px;
+    padding: 10px 15px;
     font-family:'Avenir';
     text-decoration: none;
 }
