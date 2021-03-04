@@ -1,6 +1,8 @@
 source: test
 
+url: http://srosenzweig09.github.io
 baseurl: "www.suzthephysicist.com"
+
 
 kramdown:
   math_engine: mathjax
