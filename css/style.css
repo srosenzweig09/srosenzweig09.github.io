@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+}
+head {
+    margin: 0;
+}
 .top-block {
     /* position: absolute; */
     background-color: black;
@@ -41,6 +47,26 @@
 }
 .center {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 975px;
+}
+.fancy-block {
+    display: block;
+    background-color: rgba(212, 229, 243, 0.82);
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-width: 975px;
+  }
+  .fancy-name {
+    font-size: 65px;
+    font-family: 'Avenir';
+  }
+  .fancy-title {
+    font-size: 25px;
+    font-family: 'Avenir Light';
     margin-left: auto;
     margin-right: auto;
     width: 80%;
