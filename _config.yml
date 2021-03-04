@@ -1,1 +1,8 @@
-theme: jekyll-theme-architect
+source: test
+
+url: https//srosenzweig09.github.io
+baseurl: "www.suzthephysicist.com"
+
+
+kramdown:
+  math_engine: mathjax
