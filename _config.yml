@@ -3,6 +3,7 @@ name: &name "Suzanne Rosenzweig"
 description: "Suzanne's personal site."
 url: www.suzthephysicist.com
 repository: "srosenzweig09/srosenzweig09.github.io"
+root: /
 
 facebook:
   username: srosenzweig09
