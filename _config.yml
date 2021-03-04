@@ -1,2 +1,6 @@
-theme: jekyll-theme-architect
+source: test
+
 baseurl: /test
+
+kramdown:
+  math_engine: mathjax
