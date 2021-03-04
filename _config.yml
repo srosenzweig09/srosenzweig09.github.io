@@ -1,6 +1,6 @@
 source: test
 
-baseurl: "http://www.suzthephysicist.com"
+baseurl: "www.suzthephysicist.com"
 
 kramdown:
   math_engine: mathjax
