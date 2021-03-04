@@ -1,60 +1,40 @@
-grid-container {
-    display: grid;
-    grid-gap: 0px;
-    background-color: #2196F3;
-    padding: 10px;
-}
-
-grid-item {
-    background-color: rgba(255, 255, 255, 08);
+.top-block {
+    /* position: absolute; */
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    margin: auto;
     text-align: center;
-    padding: 20px;
-    font-size: 30px;
 }
-
-header-item {
-    background-color: rgb(0, 0, 0);
-    text-align: left;
-    font-family: 'Avenir';
-    color: 'white'
+.title-block {
+    padding-top: 50px;
+    height: 80px;
+    line-height:1.35em;
+    font-size:40px;
+    font-family:'Avenir';
+    /* font-weight:lighter; */
+    color:white;
 }
-
-header-grid {
-    grid-column: 1 / span 3;
-    grid-row: 1;
-}
-
-menu-item {
-    background-color: rgba(0, 0, 0);
+.menu-block {
     text-align: center;
-    padding: 20px;
-    font-size: 30px;
+    width: 100%;
 }
-
-menu {
-    grid-column: 3;
-    grid-row: 2 / span 2;
+.menu-block ul {
+    display: inline-block;
+    margin: 0px 0;
+    padding: 0px;
 }
-
-body {
-    grid-column: 1 / span 2;
-    grid-row: 2 / span 2;
+.menu-block ul li {
+    display: inline-block;
 }
-
-footer-item {
-    background-color: rgb(0, 0, 0);
-    text-align: left;
-    font-family: 'Avenir';
+.menu-block li a {
+    display: inline-block;
+    color: #FFF;
+    padding: 0px;
+    text-decoration: none;
+    @font-face{
+    font-display: block;
+    font-family: "Avenir";
+    src: url("../srosenzweig09/fonts/Avenir.ttc") format("truetype");
 }
-
-footer {
-    grid-column: 1 / span 3;
-    grid-row: 4;
-}
-
-nice {
-    font-family: 'Avenir';
-}
-code {
-    font-family:'Courier New', Courier, monospace;
 }
