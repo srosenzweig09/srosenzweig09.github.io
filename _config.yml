@@ -1,13 +1,15 @@
 locale: en-US
 name: &name "Suzanne Rosenzweig"
 description: "Suzanne's personal site."
-url: www.suzthephysicist.com
+url: "www.suzthephysicist.com"
 baseurl: /
 repository: "srosenzweig09/srosenzweig09.github.io"
 root: /
 
 facebook:
   username: srosenzweig09
+
+use_math: true
 
 author:
   email: srosenzweig09@gmail.com
