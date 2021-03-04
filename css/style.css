@@ -31,9 +31,14 @@
     color: #FFF;
     padding: 0px;
     text-decoration: none;
-    @font-face{
+}
+.image-block {
+    display: block;
+    width: 80%;
+}
+
+@font-face{
     font-display: block;
     font-family: 'Avenir';
     src: url("../srosenzweig09/fonts/Avenir.ttc") format("truetype");
-}
 }
