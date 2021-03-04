@@ -6,7 +6,7 @@
     }
     .grid-container {
         display: grid;
-        grid-gap: 10px;
+        grid-gap: 0px;
         background-color: #2196F3;
         padding: 10px;
     }
@@ -27,6 +27,13 @@
     .header {
         grid-column: 1 / span 3;
         grid-row: 1;
+    }
+
+    .menu-item {
+        background-color: rgba(0, 0, 0);
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
     }
 
     .menu {
@@ -63,7 +70,9 @@
             <div class="header-item header">
                 <h1 class='nice'>Welcome to my website!</h1>
             </div>
-            <div class="grid-item menu">2</div>
+            <div class="menu-item menu">
+                Navigation will occur here.
+            </div>
             <div class="grid-item body">
                 <p class='nice'>It is quite obviously under construction.</p>
             </div>
