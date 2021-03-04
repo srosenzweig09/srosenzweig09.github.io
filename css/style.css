@@ -27,10 +27,10 @@
 .menu-block li a {
     display: inline-block;
     color: #FFF;
-    padding: 15px 30px;
+    padding: 10px 30px;
     font-family:'Avenir';
     text-decoration: none;
-    font-size: 10px;
+    font-size: 15px;
 }
 .image-block {
     display: block;
