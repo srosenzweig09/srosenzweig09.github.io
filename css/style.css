@@ -31,6 +31,7 @@
     color: #FFF;
     padding: 0px;
     font-family:'Avenir';
+    text-decoration: none;
 }
 .image-block {
     display: block;
@@ -44,6 +45,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    min-width: 975px;
   }
 @font-face{
     font-display: block;
