@@ -34,7 +34,7 @@
     text-decoration: none;
     @font-face{
     font-display: block;
-    font-family: "Avenir";
+    font-family: 'Avenir';
     src: url("../srosenzweig09/fonts/Avenir.ttc") format("truetype");
 }
 }
