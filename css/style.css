@@ -7,7 +7,7 @@ head {
 a {
     text-decoration: None;
     color: rgb(45, 131, 251);
-    font-weight: bold;
+    font-weight:100;
 }
 .top-block {
     background-color: black;
