@@ -46,6 +46,7 @@ head {
 }
 .about-block {
     flex:  1;
+    flex-direction: column;
     padding: 15px 10%;
     margin: auto;
     width: 50%;
@@ -53,6 +54,7 @@ head {
     float: left;
 }
 .image-block {
+    flex-direction: column;
     flex: 1;
     padding: 15px 10%;
     margin-left: auto;
