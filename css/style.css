@@ -35,6 +35,7 @@ head {
     color: #FFF;
     padding: 0px 30px;
     font-family:'Verdana';
+    font-stretch: extra-expanded;
     text-decoration: none;
     font-size: 15px;
 }
