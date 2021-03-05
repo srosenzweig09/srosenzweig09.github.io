@@ -57,7 +57,7 @@ head {
 }
 .image-block {
     flex: 1;
-    padding: 15px 10%;
+    padding: 10px 0;
     margin-left: 0;
     margin-right: auto;
     float: right;
