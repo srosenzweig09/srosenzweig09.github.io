@@ -49,6 +49,7 @@ a {
     font-family:'Verdana';
     text-decoration: none;
     font-size: 15px;
+    font-weight: normal;
 }
 .body-container {
     margin-left: auto;
