@@ -40,9 +40,11 @@ head {
     text-decoration: none;
     font-size: 15px;
 }
+.body-container {
+    width: 75%;
+}
 .image-block {
     display: block;
-    width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: right;
