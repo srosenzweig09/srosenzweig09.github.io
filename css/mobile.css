@@ -24,7 +24,6 @@ a {
 }
 .title-block {
     padding-top: 0px;
-    height: auto;
     line-height:1.35em;
     font-size:20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -33,7 +32,7 @@ a {
 }
 .menu-block {
     text-align: center;
-    width: 100100%
+    width: 100%
 }
 .menu-block ul {
     display: inline-block;
