@@ -41,11 +41,11 @@ head {
     font-size: 15px;
 }
 .body-container {
-    width: 85%;
+    width: 100%;
 }
 .about-block {
     display: block;
-    padding: 15px;
+    padding: 15px 10%;
     margin: auto;
     width: 50%;
     text-align: center;
@@ -53,7 +53,7 @@ head {
 }
 .image-block {
     display: block;
-    padding: 15px;
+    padding: 15px 10%;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
