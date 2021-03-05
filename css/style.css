@@ -18,6 +18,7 @@ head {
     line-height:1.35em;
     font-size:40px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: ultra-expanded;
     color:white;
 }
 .menu-block {
