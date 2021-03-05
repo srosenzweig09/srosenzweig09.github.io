@@ -6,12 +6,12 @@ head {
 }
 h1  {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: normal;
+    font-weight: lighter;
 }
 a {
     text-decoration: None;
     color: rgb(45, 131, 251);
-    font-weight: 300;
+    font-weight: 600;
     font-family: inherit;
     font-size: inherit;
 }
@@ -28,6 +28,7 @@ a {
     line-height:1.35em;
     font-size:40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
     letter-spacing: 3pt;
     color:white;
 }
@@ -46,7 +47,6 @@ a {
     color: #FFF;
     padding: 0px 30px;
     font-family:'Verdana';
-    font-stretch: extra-expanded;
     text-decoration: none;
     font-size: 15px;
 }
@@ -62,7 +62,7 @@ a {
     flex: 2;
     padding: 10px 5px;
     margin-top: 15px;
-    margin-right: 5px;
+    margin-right: 10px;
     float: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
