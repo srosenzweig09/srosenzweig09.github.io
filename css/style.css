@@ -44,7 +44,7 @@ head {
     margin-left: auto;
     margin-right: auto;
     height: 500px;
-    width: 100%;
+    width: 950px;
     display: flex;
     flex-direction: row;
 }
@@ -52,7 +52,6 @@ head {
     flex:  1;
     padding: 15px 10%;
     margin-top: 15px;
-    text-align: center;
     float: left;
 }
 .image-block {
