@@ -18,6 +18,7 @@ head {
     line-height:1.35em;
     font-size:40px;
     font-family:'Avenir Light';
+    font-stretch: expanded;
     color:white;
 }
 .menu-block {
