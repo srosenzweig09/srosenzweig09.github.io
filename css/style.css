@@ -4,6 +4,10 @@ body {
 head {
     margin: 0;
 }
+a {
+    text-decoration: None;
+    color: rgb(0, 100, 241);
+}
 .top-block {
     /* position: absolute; */
     background-color: black;
