@@ -43,7 +43,7 @@ head {
 .body-container {
     margin-left: auto;
     margin-right: auto;
-    height: 1000px;
+    height: 500px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -51,7 +51,7 @@ head {
 .about-block {
     flex:  1;
     padding: 15px 10%;
-    margin: auto;
+    margin-top: 15px;
     text-align: center;
     float: left;
 }
