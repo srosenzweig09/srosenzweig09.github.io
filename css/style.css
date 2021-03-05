@@ -49,6 +49,7 @@ head {
     margin: auto;
     width: 50%;
     text-align: center;
+    float: left;
 }
 .image-block {
     display: block;
@@ -56,6 +57,7 @@ head {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    float: left;
 }
 
 @font-face{
