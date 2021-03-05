@@ -17,8 +17,7 @@ head {
     height: 80px;
     line-height:1.35em;
     font-size:40px;
-    font-family:'Avenir Light';
-    font-stretch: extra-expanded;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
 }
 .menu-block {
@@ -35,7 +34,7 @@ head {
     display: inline-block;
     color: #FFF;
     padding: 0px 30px;
-    font-family:'Avenir';
+    font-family:'Verdana';
     text-decoration: none;
     font-size: 15px;
 }
@@ -53,26 +52,6 @@ head {
     width: 80%;
     min-width: 975px;
 }
-.fancy-block {
-    display: block;
-    background-color: rgba(212, 229, 243, 0.82);
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    min-width: 975px;
-  }
-  .fancy-name {
-    font-size: 65px;
-    font-family: 'Avenir';
-  }
-  .fancy-title {
-    font-size: 25px;
-    font-family: 'Avenir Light';
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    min-width: 975px;
-  }
 @font-face{
     font-display: block;
     font-family: 'Avenir';
