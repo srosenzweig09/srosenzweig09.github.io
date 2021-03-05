@@ -46,17 +46,16 @@ head {
     height: 1000px;
     width: 100%;
     display: flex;
+    flex-direction: row;
 }
 .about-block {
     flex:  1;
-    flex-direction: row;
     padding: 15px 10%;
     margin: auto;
     text-align: center;
     float: left;
 }
 .image-block {
-    flex-direction: row;
     flex: 1;
     padding: 15px 10%;
     margin-left: auto;
