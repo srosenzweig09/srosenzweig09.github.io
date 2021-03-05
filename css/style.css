@@ -53,6 +53,7 @@ head {
     padding: 15px 10%;
     margin-top: 15px;
     float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .image-block {
     flex: 1;
@@ -61,7 +62,9 @@ head {
     margin-right: auto;
     float: right;
 }
-
+p#about {
+    text-align: left;
+}
 @font-face{
     font-display: block;
     font-family: 'Avenir';
