@@ -11,8 +11,9 @@ h1  {
 a {
     text-decoration: None;
     color: rgb(45, 131, 251);
-    font-weight: 200;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-family: inherit;
+    font-size: inherit;
 }
 .top-block {
     background-color: black;
