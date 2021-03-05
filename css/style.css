@@ -17,8 +17,8 @@ head {
     height: 80px;
     line-height:1.35em;
     font-size:40px;
-    font-family: 
-    font-stretch: ultra-expanded;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3pt;
     color:white;
 }
 .menu-block {
