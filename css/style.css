@@ -93,3 +93,14 @@ p#about {
 form#contact {
     background-color: aliceblue;
 }
+fieldset {
+    display:flex;
+    flex-direction: row;
+}
+.fieldset-title {
+    flex: 1;
+    text-align: right;
+}
+input {
+    flex: 5;
+}
