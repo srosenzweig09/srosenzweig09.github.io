@@ -9,9 +9,21 @@
         <link href="css/style.css" rel="stylesheet" type="text/css">
 
         <script>
+            function ValidateForm() {
+                var formInvalid = false;
+                $('#contact input').each(function() {
+                    if ($(this).val() === '') {
+                    formInvalid = true;
+    }
+  });
+            }
             function submitForm() {
-                var T = document.getElementById("thank-you");
-                T.style.display = "block";
+                if (ValidateForm()) {
+                    var T = document.getElementById("thank-you");
+                    T.style.display = "block";
+                } else {
+
+                }
             }
         </script>
     </head>
@@ -56,7 +68,9 @@
                     </fieldset>
                 </form>
 
-                <div id="thank-you" style="display:none; margin:auto;text-align:center;">Your form has been submitted. Thank you!</div>
+                <div id="thank-you" style="display:none;margin:10px 0;text-align:center;">Your form has been submitted. Thank you!</div>
+
+                <div id="not-filled" style="display:none;margin:10px 0;text-align:center;">Please fill out each field of the form!</div>
             </div>
         </div>
 
