@@ -19,11 +19,15 @@
             }
             function submitForm() {
                 if (ValidateForm()) {
+                    var N = document.getElementById("not-filled");
+                    N.style.display = "none";
                     var T = document.getElementById("thank-you");
                     T.style.display = "block";
                 } else {
-                    var T = document.getElementById("not-filled");
-                    T.style.display = "block";
+                    var T = document.getElementById("thank-you");
+                    T.style.display = "none";
+                    var N = document.getElementById("not-filled");
+                    N.style.display = "block";
                 }
             }
         </script>
