@@ -95,13 +95,16 @@ form#contact {
 }
 fieldset {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 5px 0px;
 }
 .fieldset-title {
     flex: 1;
     text-align: right;
     margin-right: 10px;
+}
+.fieldset-item {
+    flex: 1;
 }
 input {
     flex: 5;
