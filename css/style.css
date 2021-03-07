@@ -73,7 +73,7 @@ p {
 }
 .image-block {
     flex: 1;
-    margin-left: 5px;
+    margin: auto;
     padding-top: 75px;
     padding-right: auto;
     float: right;
