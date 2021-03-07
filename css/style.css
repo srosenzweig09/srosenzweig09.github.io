@@ -96,6 +96,7 @@ form#contact {
 fieldset {
     display:flex;
     flex-direction: row;
+    margin: 5px 0px;
 }
 .fieldset-title {
     flex: 1;
