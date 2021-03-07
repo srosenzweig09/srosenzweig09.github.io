@@ -87,11 +87,12 @@ p#about {
     max-width:600px;
     margin: 0 auto;
     position:relative;
-    display:flex;
-    flex-direction: column;
+
 }
 form#contact {
     background-color: aliceblue;
+    display:flex;
+    flex-direction: column;
 }
 fieldset {
     display:flex;
