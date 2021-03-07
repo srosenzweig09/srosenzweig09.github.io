@@ -27,7 +27,7 @@ p {
     text-align: center;
 }
 .title-block {
-    padding-top: 40px;
+    margin: auto;
     height: 80px;
     font-size:40px;
     font-family: 'Helvetica Light', Verdana, Geneva, Tahoma, sans-serif;
@@ -38,6 +38,7 @@ p {
 .menu-block {
     text-align: center;
     width: 100%;
+    margin:auto;
 }
 .menu-block ul {
     display: inline-block;
