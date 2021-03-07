@@ -27,13 +27,12 @@ p {
     text-align: center;
 }
 .title-block {
-    padding-top: 50px;
+    padding-top: 40px;
     height: 80px;
-    line-height:1.35em;
     font-size:40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
-    letter-spacing: 3pt;
+    font-weight: 100;
+    letter-spacing: 2pt;
     color:white;
 }
 .menu-block {
