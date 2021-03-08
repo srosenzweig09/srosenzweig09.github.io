@@ -7,30 +7,6 @@
         <base href="www.suzthephysicist.com">
         <title>Suzanne Rosenzweig's Website</title>
         <link href="css/style.css" rel="stylesheet" type="text/css">
-
-        <script>
-            function ValidateForm() {
-                var formInvalid = false;
-                $('#contact input').each(function() {
-                    if ($(this).val() === '') {
-                    formInvalid = true;
-                    }
-                })
-            }
-            function submitForm() {
-                if (ValidateForm()) {
-                    var N = document.getElementById("not-filled");
-                    N.style.display = "none";
-                    var T = document.getElementById("thank-you");
-                    T.style.display = "block";
-                } else {
-                    var T = document.getElementById("thank-you");
-                    T.style.display = "none";
-                    var N = document.getElementById("not-filled");
-                    N.style.display = "block";
-                }
-            }
-        </script>
     </head>
 
     <body>
@@ -57,18 +33,18 @@
                     <fieldset>
                         <div class="fieldset-item">
                             <div class="fieldset-title">Name:</div>
-                            <input placeholder="Your Name" type="text" tabindex="1" required autofocus>
+                            <input placeholder="Your Name" type="text" name ="name" tabindex="1" required autofocus>
                         </div>
                         <div class="fieldset-item">
                             <div class="fieldset-title">Email:</div>
-                            <input placeholder="Your Name" type="text" tabindex="1" required autofocus>
+                            <input placeholder="Your Name" type="email" name="_replyto" tabindex="1" required autofocus>
                         </div>
                         <div class="fieldset-item">
                             <div class="fieldset-title">Message:</div>
                             <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
                         </div>
                         <div class="fieldset-item">
-                            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                            <button name="submit" type="submit" value="Send" id="contact-submit">Submit</button>
                         </div>
                     </fieldset>
                 </form>
