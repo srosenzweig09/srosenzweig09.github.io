@@ -46,8 +46,8 @@ header#title {
 }
 .menu-block ul li {
     display: inline-block;
-    padding-top: 17px;
-    padding-bottom: 17px;
+    /* padding-top: 17px;
+    padding-bottom: 17px; */
 }
 .menu-block li a {
     display: inline-block;
