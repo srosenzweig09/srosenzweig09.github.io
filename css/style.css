@@ -44,7 +44,8 @@ header#title {
     height: 20px;
 }
 .menu-block ul {
-    display: inline-block;
+    display: inline;
+    padding-inline-start: 0;
 }
 .menu-block ul li {
     display: inline-block;
