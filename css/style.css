@@ -19,6 +19,10 @@ a {
 p { 
     margin:18px;
 }
+header#title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .top-block {
     background-color: black;
     height: 129px;
@@ -32,8 +36,6 @@ p {
     font-weight: 100;
     letter-spacing: 2pt;
     color:white;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 .menu-block {
     text-align: center;
