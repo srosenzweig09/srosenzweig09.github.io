@@ -46,11 +46,13 @@ header#title {
 }
 .menu-block ul li {
     display: inline-block;
+    padding-top: 17px;
+    padding-bottom: 17px;
 }
 .menu-block li a {
     display: inline-block;
     color: #FFF;
-    padding: 17px 30px;
+    padding: 0px 30px;
     font-family:'Verdana';
     text-decoration: none;
     font-size: 15px;
