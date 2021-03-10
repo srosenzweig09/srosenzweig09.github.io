@@ -63,9 +63,7 @@ header#title {
     font-size: 15px;
     font-weight: normal;
 }
-.menu-block li a:hover {
-    font-size: 17px;
-}
+
 .body-container {
     margin-left: auto;
     margin-right: auto;
@@ -157,7 +155,7 @@ position: relative;
 color: hsl(222, 25%, 14%);
 }
 
-.borderLeftRight::after {
+.menu-block ul li::after {
 content: '';
 position: absolute;
 width: 100%;
@@ -170,7 +168,7 @@ transform-origin: bottom right;
 transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
-.borderLeftRight:hover::after {
+.menu-block ul li:hover::after {
 transform: scaleX(1);
 transform-origin: bottom left;
 }
