@@ -25,6 +25,10 @@ header#title {
     padding-bottom: 17px;
 
 }
+img#portrait {
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    }
 .top-block {
     background-color: black;
     height: 100px;
@@ -80,11 +84,6 @@ header#title {
     transform: scaleX(1);
     transform-origin: bottom left;
     }
-    img#portrait {
-        width: 150px;
-        -webkit-filter: drop-shadow(5px 5px 5px #222);
-        filter: drop-shadow(5px 5px 5px #222);
-      }
 .body-container {
     margin-left: auto;
     margin-right: auto;
@@ -169,9 +168,4 @@ textarea {
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-}
-.borderLeftRight {
-display: inline-block;
-position: relative;
-color: hsl(222, 25%, 14%);
 }
