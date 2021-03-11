@@ -1,16 +1,6 @@
-
-.title-block {
-    position: relative;
-    width: 100%;
-    text-align: center;
-}
-.image-block {
-    position: absolute;
-    z-index: 1;
-}
-
 .container{
     position: relative;
+    text-align: center;
   }
 .container > img{
     position: absolute;
