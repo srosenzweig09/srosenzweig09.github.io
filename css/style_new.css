@@ -5,6 +5,7 @@ h1  {
     display: block;
     position: relative;
     text-align: center;
+    color: black;
   }
 .container > img{
     position: absolute;
