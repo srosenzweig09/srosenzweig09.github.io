@@ -1,6 +1,9 @@
 h1  {
     text-align: inherit;
 }
+body {
+    margin: 0;
+}
 .container{
     display: block;
     position: relative;
