@@ -1,3 +1,6 @@
+h1  {
+    text-align: inherit;
+}
 .container{
     position: relative;
     text-align: center;
