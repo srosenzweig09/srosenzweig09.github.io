@@ -11,11 +11,8 @@ body {
     text-align: center;
     background-color: black;
   }
-.container > img{
-    position: absolute;
-}
 .container > img:first-child{
     z-index: 2;
+    position: absolute;
     margin: auto;
-
 }
