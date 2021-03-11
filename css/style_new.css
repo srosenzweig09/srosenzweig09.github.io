@@ -2,6 +2,7 @@ h1  {
     text-align: inherit;
 }
 .container{
+    display: block;
     position: relative;
     text-align: center;
   }
