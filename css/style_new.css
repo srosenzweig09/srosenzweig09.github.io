@@ -4,8 +4,5 @@
     text-align: center;
 }
 .image-block {
-    margin: auto;
-    padding-top: 75px;
-    padding-right: auto;
-    float: right;
+    position: absolute;
 }
