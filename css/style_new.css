@@ -2,6 +2,8 @@ h1  {
     margin: 0;
     text-align: inherit;
     position: absolute;
+    color: white;
+    font-size: 100px;
 }
 body {
     margin: 0;
