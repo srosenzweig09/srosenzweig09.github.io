@@ -1,6 +1,7 @@
 h1  {
     margin: 0;
     text-align: inherit;
+    position: absolute;
 }
 body {
     margin: 0;
@@ -10,8 +11,9 @@ body {
     position: relative;
     text-align: center;
     background-color: black;
+    width: 100%;
   }
-.im-container > img:first-child{
+.im-container > img:first-child {
     z-index: 2;
     position: absolute;
     margin: auto;
