@@ -5,7 +5,7 @@ h1  {
 body {
     margin: 0;
 }
-.container{
+.im-container{
     display: block;
     position: relative;
     text-align: center;
@@ -15,4 +15,9 @@ body {
     z-index: 2;
     position: absolute;
     margin: auto;
+}
+.container > h1 {
+    position: absolute;
+    z-index: 2;
+    margin:auto;
 }
