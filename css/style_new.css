@@ -11,12 +11,12 @@ body {
     text-align: center;
     background-color: black;
   }
-.container > img:first-child{
+.im-container > img:first-child{
     z-index: 2;
     position: absolute;
     margin: auto;
 }
-.container > h1 {
+.im-container > h1 {
     position: absolute;
     z-index: 2;
     margin:auto;
