@@ -19,6 +19,8 @@ body {
     z-index: 2;
     position: absolute;
     margin: 0 auto;
+    top: 50%;
+    transform: translate(0, -100%);
     left: 0;
     right: 0;
     text-align: center;
