@@ -4,6 +4,7 @@ h1  {
     position: absolute;
     color: white;
     font-size: 100px;
+    font-weight: 200;
 }
 body {
     margin: 0;
