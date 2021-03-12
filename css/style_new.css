@@ -35,4 +35,5 @@ html, body {
     transform: translate(-50%, -25%);
     z-index: 3;
     margin:auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
