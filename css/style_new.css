@@ -6,9 +6,10 @@ h1  {
     font-size: 100px;
     font-weight: 200;
 }
-body {
+html, body {
     margin: 0;
     height: 100%;
+    overflow: hidden;
 }
 .im-container{
     display: block;
